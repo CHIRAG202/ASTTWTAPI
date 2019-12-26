@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+display: flex;
+flex-direction: column;
+background: black;
+margin: 0;
+}
+.header{
+    flex-basis: 20%;
+    color: pink;
+    background: white;
+}
+main{
+flex-grow: 1;
+display: flex;
+flex-direction: row;
+}
+.user{
+    flex-basis: 80%;
+}
+.repo{
+    flex-basis: 50%;
+}
+
